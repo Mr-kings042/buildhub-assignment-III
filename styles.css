@@ -1,0 +1,18 @@
+nav{
+  background-color: blue;
+  color: aliceblue;
+  width: 100%;
+  height: 70%;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.5s ease-in-out;
+}
+main{
+  text-align: center;
+  padding: 10px;
+}
+nav:hover{
+color: black; 
+}

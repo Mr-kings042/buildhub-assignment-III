@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin:auto;    
+}
+@media (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      background: black;
+    }
+  
+    .sidebar {
+      width: 25%;
+    }
+  
+    .main {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+        background: yellowgreen;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sidebar,
+    .main {
+      width: 100%;
+    }
+  }
